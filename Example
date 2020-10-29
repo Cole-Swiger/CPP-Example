@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+class Example {
+public:
+    int addNumbers(int, int);
+};
+
+int Example::addNumbers(int x, int y) {
+    return x + y;
+}
+
+int main()
+{
+    Example e;
+    cout << "Hello World!\n";
+    int number = e.addNumbers(2, 4);
+    cout << number;
+    return 0;
+}
